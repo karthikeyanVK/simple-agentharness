@@ -1,0 +1,30 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+*.tsbuildinfo
+
+# agent runtime data
+.agent-memory/
+agent.config.json
+
+# env / secrets
+.env
+.env.*
+!.env.example
+
+# logs
+npm-debug.log*
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+/.claude-flow
+hello.txt

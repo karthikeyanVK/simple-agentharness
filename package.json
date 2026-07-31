@@ -1,0 +1,23 @@
+{
+  "name": "simple-agent-harness",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Educational agent harness in Node.js + TypeScript using OpenAI Responses API",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "tsx src/index.ts",
+    "start:goal": "tsx src/index.ts \"Create a file named hello.txt with the text Hello from the harness\""
+  },
+  "dependencies": {
+    "openai": "^4.104.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
